@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice-Set-layout-using-FlexBox</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        position: sticky;
+        top: 0;
+    }
+    .header nav ul{
+        display: flex;
+        padding: 20px;
+    }
+    .header nav ul li{
+        list-style: none;
+        padding: 0px 20px;
+        font-size: 3vw;
+    }
+    .main .bg{
+        width:100%;
+        height: 70vh;
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px 20px;
+    }
+    .content img{
+        border-radius: 50px;
+        margin: 10px 10px;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        position: sticky;
+        bottom: 0;
+    }
+    .footer ul{
+        display: flex;
+        justify-content: center;
+    }
+    .footer ul li{
+        list-style: none;
+        padding: 10px 20px;
+        font-size: 2vw;
+    }
+</style>
+<body>
+    <div class="header">
+        <img src="img/Future Gen-logos_white.png" alt="Future-Gen" width="80vw" height="80vh">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Developer</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <img src="img/bg01.jpeg" alt="FutureGen" class="bg" >
+    </div>
+    <div class="content">
+        <img src="img/cont1.jpeg" alt="Future-Gen">
+        <img src="img/cont2.jpeg" alt="Future-Gen">
+        <img src="img/cont3.jpeg" alt="Future-Gen">
+        <img src="img/cont4.jpeg" alt="Future-Gen">
+        <img src="img/cont5.jpeg" alt="Future-Gen">
+        <img src="img/cont7.jpeg" alt="Future-Gen">
+        <img src="img/cont8.jpeg" alt="Future-Gen">
+        <img src="img/cont9.jpeg" alt="Future-Gen">
+        <img src="img/cont10.jpeg" alt="Future-Gen">
+        <img src="img/cont11.jpeg" alt="Future-Gen">
+        <img src="img/cont12.jpeg" alt="Future-Gen">
+        <img src="img/cont13.jpeg" alt="Future-Gen">
+        <img src="img/cont14.jpeg" alt="Future-Gen">
+        <img src="img/cont15.jpeg" alt="Future-Gen">
+        <img src="img/cont16.jpeg" alt="Future-Gen">
+        <img src="img/cont17.jpeg" alt="Future-Gen">
+        <img src="img/cont18.jpeg" alt="Future-Gen">
+        <img src="img/cont19.jpeg" alt="Future-Gen">
+        <img src="img/cont20.jpeg" alt="Future-Gen">
+        <img src="img/cont21.jpeg" alt="Future-Gen">
+    </div>
+    <div class="footer">
+        <ul>
+            <li>Privacy Policy</li>
+            <li>&copy; 2022 - All rights reserved</li>
+            <li>&copy; Mr.Mohammad Arsalan Rather</li>
+        </ul>
+    </div>
+</body>
+</html>
